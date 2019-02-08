@@ -1,5 +1,5 @@
 h1, p, {
-	text-align: center;
+	text-align: center; /*this isn't working*/
 }
 
 .header {
@@ -15,7 +15,7 @@ h1, p, {
 	text-decoration: none;
 	cursor: pointer;
 	display: inline-block;
-	/* this width is currently bigger than the text*/
+	/* this is on the left..not the right*/
 }
 
 .logo{
@@ -23,24 +23,29 @@ h1, p, {
 	background-size:cover;
 	width: 30px;
 	height: 30px;
-	position: absolute;
-	left:20;
+	float: left;
 }
 
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 .right{
-	position: absolute;
-	right: 0px;
+	float: right;
 }
 
 .bkgpic {
 	background-image: url("icon.png");
 	background-size:cover;
 	height: 70px;
-	
+}
+
+.greenpnl{
+	background-color: rgb(138, 176, 73);
+	text-align: center;
+	color: white;
+	padding: 50px;
 }
