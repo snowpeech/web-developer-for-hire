@@ -1,0 +1,18 @@
+.header {
+	width: 100%;
+	padding:10px;
+}
+
+.clrbtn{
+	border-radius: 10px;
+	border: 2px solid orange;
+	text-align: center;
+	/* this width is currently bigger than the text*/
+}
+
+.logo{
+	background-image: url("icon.png");
+	width: 30px;
+	height: 30px;
+	float:left;
+}
