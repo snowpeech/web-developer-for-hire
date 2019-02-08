@@ -43,6 +43,12 @@ h1, p, {
 	height: 70px;
 }
 
+.face {
+	background-image: url("face.png");
+	background-size:cover;
+	height: 70px;
+}
+
 .greenpnl{
 	background-color: rgb(138, 176, 73);
 	text-align: center;
