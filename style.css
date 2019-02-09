@@ -1,10 +1,11 @@
-h1, p, {
-	text-align: center; /*this isn't working*/
+.header {
+	width: 100vw;
+	padding:10px;
 }
 
-.header {
-	width: 100%;
-	padding:10px;
+.header div:nth-child(2n){
+	position: absolute;
+	right: 30px;
 }
 
 .clrbtn{
@@ -15,7 +16,6 @@ h1, p, {
 	text-decoration: none;
 	cursor: pointer;
 	display: inline-block;
-	/* this is on the left..not the right*/
 }
 
 .logo{
@@ -26,32 +26,51 @@ h1, p, {
 	float: left;
 }
 
-.center {
+.center { /*grabbed this from w3 for centering */
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 }
 
-.right{
-	float: right;
+#profpic {
+	width: 150px;
 }
 
-.bkgpic {
+.bkgpic { /*this is the picture collage and icon*/
 	background-image: url("icon.png");
 	background-size:cover;
-	height: 70px;
 }
 
-.face {
-	background-image: url("face.png");
+.profile-image-bg{ /*added to make bckg for profile img*/
+	background-image:url("https://images.unsplash.com/photo-1547414887-fa33244611b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
 	background-size:cover;
-	height: 70px;
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 .greenpnl{
 	background-color: rgb(138, 176, 73);
 	text-align: center;
 	color: white;
-	padding: 50px;
+	padding: 75px 250px 150px;
+}
+
+.overlap{
+	border:1px solid red;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60vw;
+	background-image: url("white.jpg");
+	background-size: cover;
+	border-radius: 10px;
+	position: relative;
+	top:-75px;
+	z-index: 6;
+	padding: 20px;
+
 }
