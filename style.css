@@ -1,3 +1,11 @@
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size: small;
+}
+
+h4 {
+	color: rgb(138, 176, 73);
+}
 .header {
 	width: 100vw;
 	padding:10px;
@@ -49,19 +57,18 @@
 	height:150px;
 	border-radius:50%;
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 }
 
 .greenpnl{
 	background-color: rgb(138, 176, 73);
 	text-align: center;
 	color: white;
-	padding: 75px 250px 150px;
+	padding: 75px 250px 130px;
 }
 
 .overlap{
-	border:1px solid red;
+	/*border:1px solid red;*/
 	margin-right: auto;
 	margin-left: auto;
 	width: 60vw;
@@ -69,8 +76,17 @@
 	background-size: cover;
 	border-radius: 10px;
 	position: relative;
-	top:-75px;
+	top:-65px;
 	z-index: 6;
-	padding: 20px;
+	padding: 5px 15px;
+	text-align: center;
+	height: 50vh;
+}
 
+.column{
+	float: left;
+	display: block;
+	border:1px;
+	padding: 25px;
+	width: 25%;
 }
