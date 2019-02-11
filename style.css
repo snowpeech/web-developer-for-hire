@@ -1,11 +1,13 @@
 body {
 	font-family: 'Varela Round', sans-serif;
 	font-size: small;
+	text-align: center;
 }
 
 h4 {
 	color: rgb(138, 176, 73);
 }
+
 .header {
 	width: 100vw;
 	padding:10px;
@@ -38,7 +40,6 @@ h4 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: center;
 }
 
 #profpic {
@@ -68,7 +69,6 @@ h4 {
 }
 
 .overlap{
-	/*border:1px solid red;*/
 	margin-right: auto;
 	margin-left: auto;
 	width: 60vw;
@@ -79,14 +79,42 @@ h4 {
 	top:-65px;
 	z-index: 6;
 	padding: 5px 15px;
-	text-align: center;
 	height: 50vh;
 }
 
 .column{
 	float: left;
 	display: block;
-	border:1px;
 	padding: 25px;
 	width: 25%;
+}
+
+.projectbtn {
+	border-radius: 10px;
+	display: block;
+	float: left;
+	width:18vw;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.container60 {
+	clear: both;
+	width: 60%;
+	margin: auto;
+}
+.container80 {
+	clear: both;
+	width: 80%;
+	margin: auto;
+}
+
+/*sibling classes allow you to define things when you see two classes next to each other*/
+.project--buttons--row + .project--buttons--row { 
+	margin-top: 20px;
+	clear: both;
+}
+
+.projectbtn + .projectbtn {
+	margin-left: 10px;
 }
