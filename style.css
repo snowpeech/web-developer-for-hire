@@ -17,6 +17,16 @@ blockquote {
 	font-weight: bold;
 }
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+  display: inline;
+}
+
 .header {
 	width: 100vw;
 	padding:10px;
@@ -34,6 +44,7 @@ blockquote {
 	padding:5px 10px;
 	cursor: pointer;
 	clear: both;
+	color: black;
 }
 
 .logo{
@@ -74,6 +85,10 @@ blockquote {
 	text-align: center;
 	color: white;
 	padding: 75px 250px 130px;
+}
+
+.grntxt {
+	color: rgb(138, 176, 73);	
 }
 
 .overlap{
@@ -130,9 +145,19 @@ blockquote {
 	position: relative;
 	bottom:-65px; /*fix this later*/
 	z-index: 5;
-	padding: 5px 15px;
-	height: 50vh;
+	/*padding: 5px 15px;*/
+	height: 25vh;
+	color:white;
+	clear: both;
 }
+
+.wlogo{
+	width: 44px;
+	height: 40px;
+}
+
+
+
 
 
 /*sibling classes allow you to define things when you see two classes next to each other*/
