@@ -87,6 +87,13 @@ li {
 	padding: 75px 250px 130px;
 }
 
+.greenpnl2{
+	background-color: rgb(138, 176, 73);
+	text-align: center;
+	color: white;
+	padding: 95px 250px 30px;
+}
+
 .grntxt {
 	color: rgb(138, 176, 73);	
 }
@@ -143,9 +150,8 @@ li {
 	background-size: cover;
 	border-radius: 10px;
 	position: relative;
-	bottom:-65px; /*fix this later*/
+	bottom:-105px; /*fix this later*/
 	z-index: 5;
-	/*padding: 5px 15px;*/
 	height: 25vh;
 	color:white;
 	clear: both;
