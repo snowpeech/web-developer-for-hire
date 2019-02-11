@@ -4,6 +4,10 @@ body {
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+}
+
 h4 {
 	color: rgb(138, 176, 73);
 }
@@ -23,9 +27,8 @@ h4 {
 	border: 2px solid rgb(138, 176, 73);
 	text-align: center;
 	padding:5px 10px;
-	text-decoration: none;
 	cursor: pointer;
-	display: inline-block;
+	clear: both;
 }
 
 .logo{
@@ -97,7 +100,11 @@ h4 {
 	overflow: hidden;
 	margin: 10px;
 }
-
+.container35 {
+	clear: both;
+	width: 35%;
+	margin: auto;
+}
 .container60 {
 	clear: both;
 	width: 60%;
@@ -108,7 +115,6 @@ h4 {
 	width: 80%;
 	margin: auto;
 }
-
 /*sibling classes allow you to define things when you see two classes next to each other*/
 .project--buttons--row + .project--buttons--row { 
 	margin-top: 20px;
@@ -117,4 +123,16 @@ h4 {
 
 .projectbtn + .projectbtn {
 	margin-left: 10px;
+}
+
+/*.project--buttons--row + .clrbtn {
+	margin-bottom: 50px;
+}
+
+*/.projectbtn + .clrbtn {
+	margin-top: 50px;
+}
+
+.toppad {
+	margin-top: 200px;
 }
