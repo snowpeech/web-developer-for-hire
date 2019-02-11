@@ -8,6 +8,10 @@ a {
 	text-decoration: none;
 }
 
+a:link {
+	color:  rgb(138, 176, 73);
+}
+
 h4 {
 	color: rgb(138, 176, 73);
 }
@@ -134,5 +138,9 @@ h4 {
 }
 
 .toppad {
-	margin-top: 200px;
+	margin-top: 180px;
+}
+
+.column + .column {
+	margin-left: 10px;
 }
