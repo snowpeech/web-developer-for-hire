@@ -150,7 +150,7 @@ li {
 	background-size: cover;
 	border-radius: 10px;
 	position: relative;
-	bottom:-105px; /*fix this later*/
+	bottom:-105px; 
 	z-index: 5;
 	height: 96px;
 	color:white;
