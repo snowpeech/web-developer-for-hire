@@ -152,7 +152,7 @@ li {
 	position: relative;
 	bottom:-105px; /*fix this later*/
 	z-index: 5;
-	height: 25vh;
+	height: 96px;
 	color:white;
 	clear: both;
 }
