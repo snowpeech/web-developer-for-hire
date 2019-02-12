@@ -101,7 +101,7 @@ li {
 .overlap{
 	margin-right: auto;
 	margin-left: auto;
-	background-image: url("white.jpg");
+	background-color: white;
 	background-size: cover;
 	border-radius: 10px;
 	position: relative;
@@ -146,7 +146,6 @@ li {
 .blkoverlap{
 	margin-right: auto;
 	margin-left: auto;
-	/*background-image: url("midnight.jpg");*/
 	background-color: rgb(40,51,69);
 	background-size: cover;
 	border-radius: 10px;
