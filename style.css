@@ -111,6 +111,20 @@ li {
 	height: 50vh;
 }
 
+#greyln {
+	border-radius: 10px;
+	border-style: solid;
+	border-color: rgb(216,216,216);
+	padding-bottom: 114px;
+	border-width: 1px;
+}
+
+.leftln {
+	border-left-style: solid;
+	border-left-color: rgb(216,216,216);
+	border-left-width: 1px;
+}
+
 .column{
 	float: left;
 	display: block;
@@ -162,9 +176,6 @@ li {
 	width: 44px;
 	height: 40px;
 }
-
-
-
 
 
 /*sibling classes allow you to define things when you see two classes next to each other*/
