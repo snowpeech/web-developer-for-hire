@@ -44,15 +44,15 @@ li {
 	padding:5px 10px;
 	cursor: pointer;
 	clear: both;
-	color: black;
+	color: rgb(138, 176, 73);
 }
 
 .logo{
-	background-image: url("icon.png");
-	background-size:cover;
 	width: 30px;
 	height: 30px;
 	float: left;
+	color: rgb(138, 176, 73);
+	font-size: larger;
 }
 
 .center { /*grabbed this from w3 for centering */
@@ -171,12 +171,6 @@ li {
 	color:white;
 	clear: both;
 }
-
-.wlogo{
-	width: 44px;
-	height: 40px;
-}
-
 
 /*sibling classes allow you to define things when you see two classes next to each other*/
 .project--buttons--row + .project--buttons--row { 
